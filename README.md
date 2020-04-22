@@ -7,7 +7,7 @@ First, install the nuget package at [aspnetcore-secrets-replacement](https://www
 
 **appsettings.json** - Register the settings needed for the key vault replacement service and any of your services. The sample project leverages the [IOptions pattern](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-3.1 "IOptions pattern"), which is not absolutely required, but highly recommended as a best practice for configuration management. 
 
-```json
+```js
 {
   "SampleConfigurationSettings": {
     "AccountName": "MyAccount",
