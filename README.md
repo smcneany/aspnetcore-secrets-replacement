@@ -69,4 +69,4 @@ Replace the SampleConfigurationSettings, ISampleService, and SampleService with 
 
 ## Samples
 
-The project aspnetcore-secrets-replacement-tests contains a sample project that includes registering the key vault service in appsettings.json and Startup.cs, as well as using the key vault replacement service to replace other settings in the appsettings.json and the Startup.cs file. 
+The project [aspnetcore-secrets-replacement-sample](https://github.com/smcneany/aspnetcore-secrets-replacement/tree/master/aspnetcore-secrets-replacement-sample) contains a sample project that includes registering the key vault service in appsettings.json and Startup.cs, as well as using the key vault replacement service to replace other settings in the appsettings.json and the Startup.cs file. 
