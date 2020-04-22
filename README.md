@@ -3,7 +3,7 @@ Provides a default implementation of a string replacement service that replaces 
 
 ## Usage
 
-First, download the nuget package at ...TBD... Then follow the samples project and copy the following information from the project:
+First, install the nuget package at [aspnetcore-secrets-replacement](https://www.nuget.org/packages/aspnetcore-secrets-replacement-azure-keyvault/). Then follow the samples project and copy the following information from the project:
 
 **appsettings.json ** - Register the settings needed for the key vault replacement service and any of your services. The sample project leverages the [IOptions pattern](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-3.1 "IOptions pattern"), which is not absolutely required, but highly recommended as a best practice for configuration management. 
 
